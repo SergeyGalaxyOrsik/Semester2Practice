@@ -23,7 +23,7 @@ begin
   LastIDOrder := 0;
 
   OrderData.addr := 'Дзержинск';
-  OrderData.time_in :=10;
+  OrderData.time_in := 10;
   OrderData.time_out := 12;
   OrderData.volume := 2.5;
   OrderData.weight := 10;
@@ -65,7 +65,7 @@ begin
   AppendOrder(Head, Tail, Order1Data);
 
   OrderData.addr := 'Дзержинск';
-  OrderData.time_in :=10;
+  OrderData.time_in := 10;
   OrderData.time_out := 12;
   OrderData.volume := 2.5;
   OrderData.weight := 10;
@@ -105,6 +105,147 @@ begin
   Order1Data.volume := 1;
   Order1Data.weight := 8.6;
   AppendOrder(Head, Tail, Order1Data);
+
+  OrderData.addr := 'Могилёв';
+  OrderData.time_in := 9;
+  OrderData.time_out := 11;
+  OrderData.volume := 2.8;
+  OrderData.weight := 9.5;
+  AppendOrder(Head, Tail, OrderData);
+
+  OrderData.addr := 'Борисов';
+  OrderData.time_in := 10;
+  OrderData.time_out := 12;
+  OrderData.volume := 1.5;
+  OrderData.weight := 7.2;
+  AppendOrder(Head, Tail, OrderData);
+
+  OrderData.addr := 'Витебск';
+  OrderData.time_in := 11;
+  OrderData.time_out := 13;
+  OrderData.volume := 2.1;
+  OrderData.weight := 8.3;
+  AppendOrder(Head, Tail, OrderData);
+
+  OrderData.addr := 'Гомель';
+  OrderData.time_in := 14;
+  OrderData.time_out := 16;
+  OrderData.volume := 1.2;
+  OrderData.weight := 6.8;
+  AppendOrder(Head, Tail, OrderData);
+
+  OrderData.addr := 'Гродно';
+  OrderData.time_in := 12;
+  OrderData.time_out := 14;
+  OrderData.volume := 2.3;
+  OrderData.weight := 9.1;
+  AppendOrder(Head, Tail, OrderData);
+
+  OrderData.addr := 'Могилёв';
+  OrderData.time_in := 8;
+  OrderData.time_out := 12;
+  OrderData.volume := 1.9;
+  OrderData.weight := 8.7;
+  AppendOrder(Head, Tail, OrderData);
+
+  OrderData.addr := 'Брест';
+  OrderData.time_in := 9;
+  OrderData.time_out := 13;
+  OrderData.volume := 2.5;
+  OrderData.weight := 10;
+  AppendOrder(Head, Tail, OrderData);
+
+  OrderData.addr := 'Витебск';
+  OrderData.time_in := 11;
+  OrderData.time_out := 15;
+  OrderData.volume := 1.6;
+  OrderData.weight := 7.5;
+  AppendOrder(Head, Tail, OrderData);
+
+  OrderData.addr := 'Гомель';
+  OrderData.time_in := 14;
+  OrderData.time_out := 18;
+  OrderData.volume := 2.0;
+  OrderData.weight := 8.8;
+  AppendOrder(Head, Tail, OrderData);
+
+  OrderData.addr := 'Гродно';
+  OrderData.time_in := 12;
+  OrderData.time_out := 16;
+  OrderData.volume := 1.4;
+  OrderData.weight := 6.5;
+  AppendOrder(Head, Tail, OrderData);
+
+  OrderData.addr := 'Могилёв';
+  OrderData.time_in := 8;
+  OrderData.time_out := 10;
+  OrderData.volume := 2.0;
+  OrderData.weight := 7.8;
+  AppendOrder(Head, Tail, OrderData);
+
+  OrderData.addr := 'Брест';
+  OrderData.time_in := 9;
+  OrderData.time_out := 11;
+  OrderData.volume := 1.7;
+  OrderData.weight := 8.3;
+  AppendOrder(Head, Tail, OrderData);
+
+  OrderData.addr := 'Витебск';
+  OrderData.time_in := 10;
+  OrderData.time_out := 12;
+  OrderData.volume := 2.2;
+  OrderData.weight := 9.0;
+  AppendOrder(Head, Tail, OrderData);
+
+  OrderData.addr := 'Гомель';
+  OrderData.time_in := 13;
+  OrderData.time_out := 15;
+  OrderData.volume := 1.8;
+  OrderData.weight := 8.2;
+  AppendOrder(Head, Tail, OrderData);
+
+  OrderData.addr := 'Гродно';
+  OrderData.time_in := 11;
+  OrderData.time_out := 13;
+  OrderData.volume := 2.1;
+  OrderData.weight := 9.3;
+  AppendOrder(Head, Tail, OrderData);
+
+  OrderData.addr := 'Могилёв';
+  OrderData.time_in := 8;
+  OrderData.time_out := 12;
+  OrderData.volume := 2.3;
+  OrderData.weight := 8.5;
+  AppendOrder(Head, Tail, OrderData);
+
+  OrderData.addr := 'Брест';
+  OrderData.time_in := 9;
+  OrderData.time_out := 13;
+  OrderData.volume := 1.9;
+  OrderData.weight := 7.9;
+  AppendOrder(Head, Tail, OrderData);
+
+  OrderData.addr := 'Витебск';
+  OrderData.time_in := 11;
+  OrderData.time_out := 15;
+  OrderData.volume := 2.0;
+  OrderData.weight := 9.1;
+  AppendOrder(Head, Tail, OrderData);
+
+  OrderData.addr := 'Гомель';
+  OrderData.time_in := 14;
+  OrderData.time_out := 18;
+  OrderData.volume := 1.7;
+  OrderData.weight := 8.7;
+  AppendOrder(Head, Tail, OrderData);
+
+  OrderData.addr := 'Гродно';
+  OrderData.time_in := 12;
+  OrderData.time_out := 16;
+  OrderData.volume := 1.5;
+  OrderData.weight := 7.5;
+  AppendOrder(Head, Tail, OrderData);
+
 end;
 
 procedure generatePostmans(var Head, Tail: PPostman);
@@ -130,7 +271,7 @@ begin
 
   Postman1Data.fio := 'Иваненко';
   Postman1Data.time_in := 14;
-  Postman1Data.time_out := 12;
+  Postman1Data.time_out := 24;
   Postman1Data.volume := 2.5;
   Postman1Data.weight := 10;
   AppendPostman(Head, Tail, Postman1Data);
@@ -172,7 +313,7 @@ begin
 
   Postman1Data.fio := 'Иваненко';
   Postman1Data.time_in := 14;
-  Postman1Data.time_out := 12;
+  Postman1Data.time_out := 23;
   Postman1Data.volume := 2.5;
   Postman1Data.weight := 10;
   AppendPostman(Head, Tail, Postman1Data);

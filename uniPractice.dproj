@@ -95,6 +95,7 @@
         <DCCReference Include="rawData.pas"/>
         <DCCReference Include="compareModule.pas"/>
         <DCCReference Include="specialFunction.pas"/>
+        <DCCReference Include="fileModule.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
